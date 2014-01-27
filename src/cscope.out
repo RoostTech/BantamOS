@@ -1,0 +1,140 @@
+cscope 15 $HOME/Repos/BantamOS/src               0000000714
+	@bantamos_tasks.h
+
+22 #i‚de‡
+BANTAMOS_TASKS_H
+
+
+23 
+	#BANTAMOS_TASKS_H
+
+
+	)
+
+25 
+	~"b™èmos_ty≥s.h
+"
+
+33 * 
+	tTaskH™dÀ_t
+;
+
+47 
+	mRu¬ög
+ = 0,
+
+48 
+	mRódy
+,
+
+49 
+	mBlocked
+,
+
+50 
+	mSu•íded
+,
+
+51 
+	mDñëed
+
+
+52 } 
+	tTaskSèã_e
+;
+
+63 *
+	mba£_addªss
+;
+
+68 
+uöt32_t
+ 
+	mÀngth
+;
+
+73 
+uöt32_t
+ 
+	m∑øms
+;
+
+74 } 
+	tMem‹yRegi⁄_t
+;
+
+87 * 
+	mèsk_fun˘i⁄
+;
+
+92 
+uöt16_t
+ 
+	m°ack_dïth
+;
+
+98 
+uöt8_t
+ 
+	m¥i‹ôy
+;
+
+103 
+TaskSèã_e
+ 
+	m°©e
+;
+
+108 
+uöt8_t
+ 
+	mèsk_numbî
+;
+
+109 } 
+	tTaskSètus_t
+;
+
+	@bantamos_types.h
+
+22 #i‚de‡
+BANTAMOS_TYPES_H
+
+
+23 
+	#BANTAMOS_TYPES_H
+
+
+	)
+
+36 
+uöt16_t
+ 
+	mfuŒ
+;
+
+39 
+uöt8_t
+ 
+	mlowbyã
+;
+
+40 
+uöt8_t
+ 
+	mhighbyã
+;
+
+42 } 
+	tTick_t
+;
+
+	@
+1
+.
+1
+/usr/include
+2
+34
+bantamos_tasks.h
+bantamos_types.h

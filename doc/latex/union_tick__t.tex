@@ -1,0 +1,32 @@
+\hypertarget{union_tick__t}{\section{Tick\-\_\-t Union Reference}
+\label{union_tick__t}\index{Tick\-\_\-t@{Tick\-\_\-t}}
+}
+
+
+{\ttfamily \#include $<$bantamos\-\_\-types.\-h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{union_tick__t_aa8cc29818fac4b27d138dcd358833afb}{uint16\-\_\-t {\bfseries full}}\label{union_tick__t_aa8cc29818fac4b27d138dcd358833afb}
+
+\item 
+\hypertarget{union_tick__t_a5f25a78432efab66e32db2af8875f5ba}{\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\hypertarget{struct_tick__t_1_1@0_accad9a115ed1b86bcfd3ba3e3a692ca0}{\>uint8\_t {\bfseries lowbyte}\\
+\hypertarget{struct_tick__t_1_1@0_a3df717ca87baecd53a8dbed71ccada64}{\>uint8\_t {\bfseries highbyte}\\
+\}; }\label{union_tick__t_a5f25a78432efab66e32db2af8875f5ba}
+\\
+
+\end{tabbing}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A container for the 'ticks' used for timings
+
+A union is used for \hyperlink{union_tick__t}{Tick\-\_\-t} so that we can get the efficiency of seperate high and low bytes, but if need be, we can have the convenience of a full 16bit word. N\-B\-: \hyperlink{union_tick__t}{Tick\-\_\-t} is intended for use with standard, equidistant, tick interrupts. 
+
+The documentation for this union was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/bantamos\-\_\-types.\-h\end{DoxyCompactItemize}

@@ -1,0 +1,48 @@
+\hypertarget{struct_task_status__t}{\section{Task\-Status\-\_\-t Struct Reference}
+\label{struct_task_status__t}\index{Task\-Status\-\_\-t@{Task\-Status\-\_\-t}}
+}
+
+
+{\ttfamily \#include $<$bantamos\-\_\-tasks.\-h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+void $\ast$ \hyperlink{struct_task_status__t_a27f8af792ccfae5edfbbfc732854ea24}{task\-\_\-function}
+\item 
+uint16\-\_\-t \hyperlink{struct_task_status__t_a871d318da2b64860c69302300b85674a}{stack\-\_\-depth}
+\item 
+uint8\-\_\-t \hyperlink{struct_task_status__t_a0ad043071ccc7a261d79a759dc9c6f0c}{priority}
+\item 
+Task\-State\-\_\-e \hyperlink{struct_task_status__t_a574eb235ee9dadcd5113f49f05b87a61}{state}
+\item 
+uint8\-\_\-t \hyperlink{struct_task_status__t_ae1ced017faebaf11cad29bdb7bef902b}{task\-\_\-number}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A container for a task and its properties
+
+A Task\-Handle\-\_\-t type pointer generally points to one of these structs and is used to reference the \hyperlink{struct_task_status__t}{Task\-Status\-\_\-t} struct. 
+
+\subsection{Field Documentation}
+\hypertarget{struct_task_status__t_a0ad043071ccc7a261d79a759dc9c6f0c}{\index{Task\-Status\-\_\-t@{Task\-Status\-\_\-t}!priority@{priority}}
+\index{priority@{priority}!TaskStatus_t@{Task\-Status\-\_\-t}}
+\subsubsection[{priority}]{\setlength{\rightskip}{0pt plus 5cm}uint8\-\_\-t priority}}\label{struct_task_status__t_a0ad043071ccc7a261d79a759dc9c6f0c}
+The priority of the task. A lower number equates to a higher priority. \hypertarget{struct_task_status__t_a871d318da2b64860c69302300b85674a}{\index{Task\-Status\-\_\-t@{Task\-Status\-\_\-t}!stack\-\_\-depth@{stack\-\_\-depth}}
+\index{stack\-\_\-depth@{stack\-\_\-depth}!TaskStatus_t@{Task\-Status\-\_\-t}}
+\subsubsection[{stack\-\_\-depth}]{\setlength{\rightskip}{0pt plus 5cm}uint16\-\_\-t stack\-\_\-depth}}\label{struct_task_status__t_a871d318da2b64860c69302300b85674a}
+The size of the stack allocated for the task \hypertarget{struct_task_status__t_a574eb235ee9dadcd5113f49f05b87a61}{\index{Task\-Status\-\_\-t@{Task\-Status\-\_\-t}!state@{state}}
+\index{state@{state}!TaskStatus_t@{Task\-Status\-\_\-t}}
+\subsubsection[{state}]{\setlength{\rightskip}{0pt plus 5cm}Task\-State\-\_\-e state}}\label{struct_task_status__t_a574eb235ee9dadcd5113f49f05b87a61}
+The current state of the task. \hypertarget{struct_task_status__t_a27f8af792ccfae5edfbbfc732854ea24}{\index{Task\-Status\-\_\-t@{Task\-Status\-\_\-t}!task\-\_\-function@{task\-\_\-function}}
+\index{task\-\_\-function@{task\-\_\-function}!TaskStatus_t@{Task\-Status\-\_\-t}}
+\subsubsection[{task\-\_\-function}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ task\-\_\-function}}\label{struct_task_status__t_a27f8af792ccfae5edfbbfc732854ea24}
+A function pointer to a function that implements the task \hypertarget{struct_task_status__t_ae1ced017faebaf11cad29bdb7bef902b}{\index{Task\-Status\-\_\-t@{Task\-Status\-\_\-t}!task\-\_\-number@{task\-\_\-number}}
+\index{task\-\_\-number@{task\-\_\-number}!TaskStatus_t@{Task\-Status\-\_\-t}}
+\subsubsection[{task\-\_\-number}]{\setlength{\rightskip}{0pt plus 5cm}uint8\-\_\-t task\-\_\-number}}\label{struct_task_status__t_ae1ced017faebaf11cad29bdb7bef902b}
+A unique identifier for the task. 
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/bantamos\-\_\-tasks.\-h\end{DoxyCompactItemize}
